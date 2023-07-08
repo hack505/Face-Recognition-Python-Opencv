@@ -1,15 +1,9 @@
+print("""
+| | | | __ _  ___| | _| ___| / _ \| ___| 
+| |_| |/ _` |/ __| |/ /___ \| | | |___ \ 
+|  _  | (_| | (__|   < ___) | |_| |___) |
+|_| |_|\__,_|\___|_|\_\____/ \___/|____/ 
 """
-@author: Kamesh(hack505)
-moulde required:
-opencv-python
-numpy
-cmake
-dlib
-face_recognition
-os
-"""
-
-
 
 import cv2
 import numpy as np
@@ -39,7 +33,7 @@ encodelistknow = find_encodings(images)
 #print(len(encodelistknow))
 print("Encodeing completed..........")
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) # if you can see anything try '1' instead of '0'
 
 while True:
     success, img = cap.read()
