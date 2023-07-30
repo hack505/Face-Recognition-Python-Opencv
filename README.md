@@ -9,7 +9,7 @@ A cool Real time face Recognition python program created with opencv... more
 Clone the project
 
 ```bash
-  https://github.com/hack505/Face-Recognition-Python-Opencv.git
+  git clone https://github.com/hack505/Face-Recognition-Python-Opencv.git
 ```
 
 Go to the project directory and make faces directory
