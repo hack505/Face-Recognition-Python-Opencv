@@ -29,7 +29,7 @@ Required package to Install
   pip install dlib
 ```
 
---before running paste your image in faces folder and rename it as you name--
+**before running paste your image in faces folder and rename it as you name**
 
 Ready to Run!
 
